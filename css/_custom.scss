@@ -5,6 +5,7 @@
 
 /*Google fonts*/
 @import url('https://fonts.googleapis.com/css?family=Catamaran:200,300,400,500,600,700,900');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 html,
 body {
@@ -14,6 +15,10 @@ body {
 body{
     font-family: 'Catamaran', sans-serif;
     font-size: 16px;
+}
+
+.nonstop {
+    font-family: 'Montserrat', sans-serif;
 }
 .navbar-brand{
     font-weight: 900;
@@ -266,4 +271,8 @@ Pricing tables
     font-size: 16px;
     font-weight: normal;
     margin-bottom: 15px;
+}
+
+.lead p{
+    color: white;
 }
