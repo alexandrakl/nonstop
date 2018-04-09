@@ -8,7 +8,7 @@
 * Copyright 2011-2017 The Bootstrap Authors 
 * Copyright 2011-2017 Twitter, Inc. 
 * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)*/
-@import url("https://fonts.googleapis.com/css?family=Catamaran:200,300,400,500,600,700,900");
+/*@import url("https://fonts.googleapis.com/css?family=Catamaran:200,300,400,500,600,700,900");*/
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -343,7 +343,8 @@ h6, .h6 {
 .lead {
   font-size: 1.25rem;
   font-weight: 300; 
-  color:white;}
+  color:white;
+  }
 
 .display-1 {
   font-size: 6rem;
@@ -3100,9 +3101,12 @@ tbody.collapse.show {
       color: rgba(0, 0, 0, 0.9); }
 
 .navbar-dark .navbar-brand {
-  color: #ffffff; }
+  color: #ffffff; 
+  font-size:1.42rem;
+  }
   .navbar-dark .navbar-brand:focus, .navbar-dark .navbar-brand:hover {
-    color: #ffffff; }
+    color: #ffffff; 
+     font-size:1.42rem;}
 
 .navbar-dark .navbar-nav .nav-link {
   color: rgba(255, 255, 255, 0.5); }
@@ -6485,7 +6489,7 @@ body {
   height: 100%; }
 
 body {
-  font-family: 'Catamaran', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 16px; }
 
 .navbar-brand {
@@ -6558,7 +6562,7 @@ section {
 * Background Colors
 ================================================*/
 .bg-texture {
-  background: linear-gradient(-45deg, #2E353F 33%, transparent 0%), linear-gradient(-45deg, #176397 100%, transparent 33%); }
+  background: linear-gradient(to right, #b2fefa, #0ed2f7)} 
 
 .bg-texture-collage {
   background: linear-gradient(-45deg, #2E353F 33%, transparent 0%), linear-gradient(-45deg, #176397 67%, transparent 33%), linear-gradient(-45deg, #2E353F 100%, transparent 67%); }
@@ -6601,7 +6605,7 @@ section {
   color: #176397 !important; }
 
 .text-orange {
-  color: #2E353F !important; }
+  color: white !important; }
 
 /*===============================================
 * Icon Sizes
@@ -6719,3 +6723,30 @@ Pricing tables
   font-size: 16px;
   font-weight: normal;
   margin-bottom: 15px; }
+
+.leftT {
+   margin-left: -246px;
+}
+
+.rightT  {
+    margin-right: -246px;
+}
+
+.oneline {
+    font-size: 1.18rem;
+     text-align: center;
+    color: #2E353F !important;
+}
+
+.oldblue {
+  color: #176397;
+
+}
+
+.centeredText {
+   text-align: center;
+}
+
+.sizeBigger {
+  font-size: 2rem;
+}

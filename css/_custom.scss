@@ -13,7 +13,7 @@ body {
     height: 100%;
 }
 body{
-    font-family: 'Catamaran', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
 }
 
@@ -274,5 +274,18 @@ Pricing tables
 }
 
 .lead p{
-    color: white;
+    color: #176397;
+    
+}
+
+#leftT p {
+    margin-left: 75px;
+}
+
+#rightT p {
+    margin-right: 75px;
+}
+
+.oneline {
+    font-size: 1.18rem;
 }
