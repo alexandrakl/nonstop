@@ -6724,18 +6724,15 @@ Pricing tables
   font-weight: normal;
   margin-bottom: 15px; }
 
-.leftT {
-   margin-left: -246px;
-}
-
-.rightT  {
-    margin-right: -246px;
-}
 
 .oneline {
     font-size: 1.18rem;
      text-align: center;
     color: #2E353F !important;
+}
+
+.grey {
+   color: #2E353F !important;
 }
 
 .oldblue {
@@ -6750,3 +6747,53 @@ Pricing tables
 .sizeBigger {
   font-size: 2rem;
 }
+.input-group-btn:last-child>.btn,.input-group-btn:last-child>.btn-group {
+    margin-left: 0;
+    padding: 8px;
+    background-color: #176397;
+    color: white;
+    border: 2px solid #176397;
+   font-family: 'Montserrat', sans-serif;
+   border-radius: 0rem;
+   }
+
+.input-group {
+  display: flex;
+  flex-wrap: nowrap;
+   border: 2px solid #176397;
+}
+
+.input-group .form-control {
+    position: relative;
+    z-index: 2;
+    float: left;
+    width: 100%;
+    margin-bottom: 0;
+    
+}
+
+.input-group .form-control:focus {
+	border: 2px solid #49A3F1;
+}
+
+.text-download {
+      font-size: 37px;
+}
+
+.p-0 {
+  padding: 2rem 0rem !important;
+}
+
+ /*@media (min-width: 748px) {
+  .leftT {
+   margin-left: -155px;
+}
+
+.rightT  {
+    margin-right: -155px;
+}
+.centerT {
+    margin-left: -130px;
+}
+
+}*/
