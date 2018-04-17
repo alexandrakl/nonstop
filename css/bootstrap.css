@@ -9,6 +9,9 @@
 * Copyright 2011-2017 Twitter, Inc. 
 * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)*/
 /*@import url("https://fonts.googleapis.com/css?family=Catamaran:200,300,400,500,600,700,900");*/
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -6777,23 +6780,16 @@ Pricing tables
 }
 
 .text-download {
-      font-size: 37px;
+      font-size: 29px;
+      text-align: center;
+      color: white !important;
+      font-family: 'Lato', sans-serif;
 }
 
 .p-0 {
   padding: 2rem 0rem !important;
 }
 
- /*@media (min-width: 748px) {
-  .leftT {
-   margin-left: -155px;
+.nonstop {
+  font-family: 'Lato', sans-serif;
 }
-
-.rightT  {
-    margin-right: -155px;
-}
-.centerT {
-    margin-left: -130px;
-}
-
-}*/

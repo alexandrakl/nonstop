@@ -27,7 +27,7 @@
     <body>
         <!--header-->
         <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-primary sticky-navigation">
-            <a class="navbar-brand" href="#"><strong>NonStop</strong></a>
+            <a class="navbar-brand nonstop" href="#"><strong>NonStop</strong></a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -37,7 +37,7 @@
                         <a class="nav-link page-scroll" href="#features">Features <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item mr-3">
-                        <a class="nav-link page-scroll" href="#download">Download</a>
+                        <a class="nav-link page-scroll" href="#download">Sign Up</a>
                     </li>
                     <li class="nav-item mr-3">
                         <a class="nav-link page-scroll" href="#team">Team</a>
@@ -58,9 +58,8 @@
                         <h1 class="nonstop">NonStop</h1>
                         <h2 class="oldblue">Outsmarting airports, <span class="text-orange">together.</span></h2>
                         <p class="mt-4 lead oldblue">
-                       Meet NonStop, the worlds first all-in-one airport navigator. 
+                        Meet NonStop, the worlds first all-in-one airport navigator. 
                         With premium features designed to make your life easier, Nonstop takes the stress out of flying. 
-                        
                         </p>
                         <p class="mt-5">
                        
@@ -109,20 +108,33 @@
          <section class="bg-orange" id="download">
             <div class="container">
                 <div class="row">
-                    <div class=" offset-md-3 col-sm-12 offset-sm-1 col-xs-12">
-                        <h2 class="text-primary text-download">NEED to change text Soon...</h2>
+                    <div class=" offset-md-3 col-sm-6 offset-sm-1 col-xs-12">
+                        <h2 class="text-primary text-download">Sign up to be notified of our launch!</h2>
                     </div>
                 </div>
                 <div class="row">
                     <div class=" offset-md-3 col-sm-6 offset-sm-1 col-xs-6">
-                    	<form id="newsletter-form" action="send.php" method="POST" class="col-xs-6  myform" novalidate>
+
+
+                        <!-- /**
+                        
+                        <form action="https://formspree.io/your@email.com"
+      method="POST">
+    <input type="text" name="name">
+    <input type="email" name="_replyto">
+    <input type="submit" value="Send">
+</form>
+                        
+                        **/ -->
+                        <form action="https://formspree.io/outsmarting.airports.together@gmail.com"
+                    	id="newsletter-form" action="send.php" method="POST" class="col-xs-6  myform" novalidate>
 						<div class="input-group">
-							<input id="newsletter-mail" name="email" placeholder="Enter your email" class="form-control input-lg requiredField" type="email" data-error-empty="Please enter your email" data-error-invalid="Invalid email address">
+							<input id="newsletter-mail" type="email"  name="_replyto" placeholder="Enter your email" class="form-control input-lg requiredField" type="email" data-error-empty="Please enter your email" data-error-invalid="Invalid email address">
 							<span class="input-group-btn">
-								<button name="submit" type="submit" class="btn" data-error-message="Error!" data-sending-message="Sending..." data-ok-message="Message Sent">Subscribe</button>
+								<button name="submit" type="submit" value="Send" class="btn" data-error-message="Error!" data-sending-message="Sending..." data-ok-message="Message Sent">Subscribe</button>
 							</span>
 						</div>
-						<input type="hidden" name="submitted" id="submitted2" value="true">
+						<!-- <input type="submit" name="submitted" id="submitted2" value="Send"> -->
 					    </form>
                     </div>
                  </div>
